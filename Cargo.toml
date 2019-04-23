@@ -1,0 +1,9 @@
+[package]
+name = "servo-embedding-example"
+version = "0.1.0"
+authors = ["Franc[e]sco <lolisamurai@tfwno.gf>"]
+edition = "2018"
+
+[dependencies]
+libservo = { git = "https://github.com/servo/servo", rev = "328244684a8b1f98d515d5f40655b9cf7347affd" }
+glutin = "0.21.0"
